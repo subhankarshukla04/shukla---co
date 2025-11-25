@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Shukla & Co | Chartered Accountants</title>
+  <meta name="description" content="Get in touch with Shukla & Co for expert chartered accountancy services. Schedule a confidential consultation for your tax, audit, and advisory needs.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo-placeholder.png" alt="Shukla & Co. Logo" class="logo-img" style="height: 60px; width: auto;">
+          <div class="brand">
+            <span class="firm-name">Shukla & Co.</span>
+            <small class="tag">Chartered Accountants</small>
+          </div>
+        </a>
+
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+        <nav class="main-nav" id="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="hero" style="padding: 4rem 0 3rem;">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content" style="max-width: 700px;">
+          <div class="hero-badge">
+            <span class="badge-icon">📞</span>
+            <span>Get in Touch</span>
+          </div>
+
+          <h1 class="hero-title" style="font-size: 2.75rem;">
+            Let's <span class="highlight">Discuss</span> Your Needs
+          </h1>
+
+          <p class="hero-description">
+            Schedule a confidential consultation to explore how we can support your tax planning, compliance, and business advisory requirements. No obligations—just expert guidance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <h3 style="color: var(--text-primary); margin-bottom: 1.5rem;">Office Information</h3>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-content">
+              <h4>Address</h4>
+              <p>
+                Shukla & Co.<br>
+              India
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div class="contact-item-content">
+              <h4>Phone</h4>
+              <p>
+                <a href="tel:+91 99584-40555" style="color: var(--blue-accent); text-decoration: none;">+91 99584-40555</a><br>
+                <span style="font-size: 0.875rem;">Monday - Friday: 10:00 AM - 6:00 PM</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-content">
+              <h4>Email</h4>
+              <p>
+                <a href="mailto:shukla.and.company.ca.cs.cpa@gmail.com" style="color: var(--blue-accent); text-decoration: none;">shukla.and.company.ca.cs.cpa@gmail.com</a><br>
+                <span style="font-size: 0.875rem;"> Email us for inquiries</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">💬</div>
+            <div class="contact-item-content">
+              <h4>WhatsApp</h4>
+              <p>
+                <a href="https://wa.me/919958440555" style="color: var(--blue-accent); text-decoration: none;" target="_blank" rel="noopener">+91 9958440555</a><br>
+                <span style="font-size: 0.875rem;">Quick questions? Message us directly</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3 style="color: var(--text-primary); margin-bottom: 1.5rem;">Send Us a Message</h3>
+
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service of Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="tax">Tax Planning & Compliance</option>
+                <option value="audit">Audit & Assurance</option>
+                <option value="advisory">Business Advisory</option>
+                <option value="roc">ROC & Compliance</option>
+                <option value="international">International Taxation</option>
+                <option value="wealth">Wealth Management</option>
+                <option value="other">Other / General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Tell us about your needs, questions, or how we can help..."></textarea>
+            </div>
+
+            <p class="form-note">
+              * Required fields. Your information is kept strictly confidential and will only be used to respond to your inquiry.
+            </p>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+              Send Message
+            </button>
+
+            <p id="formStatus" style="margin-top: 1rem; font-size: 0.95rem; color: var(--blue-accent);"></p>
+          </form>
+
+          <div style="margin-top: 2rem; padding: 1.5rem; background: var(--gray-50); border-radius: var(--radius-md); border-left: 4px solid var(--blue-accent);">
+            <h4 style="color: var(--text-primary); margin-bottom: 0.5rem;">📅 Schedule a Consultation</h4>
+            <p style="margin: 0; font-size: 0.95rem; color: var(--text-secondary);">
+              Prefer to book a specific time? <a href="#" style="color: var(--blue-accent); font-weight: 600; text-decoration: none;">Click here to schedule</a> a free 30-minute consultation at your convenience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section (Optional) -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div style="background: var(--gray-100); border-radius: var(--radius-lg); padding: 3rem; text-align: center;">
+        <h3 style="color: var(--text-primary); margin-bottom: 1rem;">Visit Our Office</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+          We're located in [City Name]. Schedule an in-person consultation or video call—whatever works best for you.
+        </p>
+
+        <!-- Replace this with actual Google Maps embed when you have the address -->
+        <div style="background: var(--white); border: 2px dashed var(--gray-300); border-radius: var(--radius-md); padding: 4rem 2rem; color: var(--text-secondary);">
+          <p style="margin: 0;">📍 Google Maps Embed Here</p>
+          <p style="margin: 0.5rem 0 0; font-size: 0.875rem;">
+            (Add your Google Maps iframe embed code with your actual office location)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Common Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+
+      <div style="max-width: 900px; margin: 0 auto;">
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <h4 style="color: var(--text-primary); margin-bottom: 0.75rem;">How do I get started?</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            Simply fill out the contact form above or call/email us directly. We'll schedule an initial consultation to understand your needs and explain how we can help.
+          </p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <h4 style="color: var(--text-primary); margin-bottom: 0.75rem;">Is the initial consultation free?</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            Yes. The first 30-minute consultation is complimentary and without obligation. It's an opportunity for us to understand your situation and for you to assess if we're the right fit.
+          </p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <h4 style="color: var(--text-primary); margin-bottom: 0.75rem;">Do you work with clients outside [Your City]?</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            Absolutely. We serve clients across India through video calls, phone consultations, and secure digital document sharing. Location is not a barrier to receiving our services.
+          </p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <h4 style="color: var(--text-primary); margin-bottom: 0.75rem;">How quickly will I hear back?</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            We typically respond to all inquiries within 24 hours on business days. For urgent matters, please call us directly or send a WhatsApp message.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4 style="color: var(--text-primary); margin-bottom: 0.75rem;">What information should I prepare?</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            For the initial consultation, just come with your questions and concerns. If you have specific documents (tax returns, financial statements), they can be helpful but aren't required for the first conversation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Ready to Get Started?</h2>
+        <p class="cta-description">
+          Whether you need tax planning, audit services, or business advisory—we're here to help. Reach out today for a confidential consultation.
+        </p>
+        <div class="cta-buttons">
+          <a href="mailto: shukla.and.company.ca.cs.cpa@gmail.com" class="btn btn-primary">Email Us</a>
+          <a href="tel:+91 99584-40555" class="btn btn-secondary">Call Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-logo">Shukla & Co.</div>
+          <p class="footer-description">
+            Boutique chartered accountancy practice providing specialized tax, audit, and advisory services to high-net-worth individuals and businesses across India.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Tax Planning</a></li>
+            <li><a href="services.html">Audit & Assurance</a></li>
+            <li><a href="services.html">Business Advisory</a></li>
+            <li><a href="services.html">ROC Compliance</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">Our Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#">Tax Updates</a></li>
+            <li><a href="#">Regulatory News</a></li>
+            <li><a href="#">Client Portal</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2025 Shukla & Co. Chartered Accountants. All rights reserved. | ICAI Member Firm
+        </div>
+        <div>
+          <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
